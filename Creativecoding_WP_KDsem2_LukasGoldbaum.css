@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+}
+
+
+
+
+/* video
+{
+    position: absolute;
+    top: 25%;
+    left:25%;
+    width:50%;
+    height:50%;
+    z-index: -1;
+    object-fit: cover;
+
+}  
+*/
+
+video {
+    width: 60vw;
+    height: calc(100/3)vh;
+    /*z-index: 0;*/ 
+    object-fit: cover;
+    
+}
+
+
+.grid {
+    display: grid; /* das schaltet grid an */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.item-center{
+   
+    background-color: rgb(255, 255, 255); 
+    /* grid-column-start: 1;
+    grid-column-end: span col4-start; */
+    overflow: hidden;
+    position: relative; 
+    /* overflow: hidden; */
+    } 
+
+
+.item-center h1
+{
+   
+
+    text-align: center;
+
+
+    color: rgb(255, 255, 255);
+    line-height: 45vh;
+    
+    font-stretch:wider;
+    position:absolute;
+    top:-76%;
+    left:0%;
+    width:100%;
+    height:140%;
+    background:#fff;
+    
+    text-transform: uppercase;
+    color: #000;
+    mix-blend-mode: screen;
+    
+
+}
+h1{
+    color: lightblue;
+    font-size: 16em;
+    font-family: fit;
+    font-weight: 80;
+    font-stretch:semi-condensed;}
+
+.p{font-family: century gothic;
+    font-weight: 800;}
+
+ 
+.pic1 img{ 
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+
+.pic2 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+
+.pic3 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+
+.pic4 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+.pic5 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+.pic6 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+.pic7 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+.pic8 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+.pic9 img{
+    width: 35vh;
+    overflow: hidden;
+    object-fit: scale-down;
+    padding-left: 15vh;
+} 
+
+/*
+h1{
+    color: lightblue;
+    font-size: 20em;
+    font-family: fit;
+    font-weight: 100;
+    font-stretch:wider;}
+
+p{
+    font-family: century gothic;
+    font-weight: 800;
+    
+}
+
+
+ {margin:0;
+padding:0;
+}
+
+.banner
+
+{
+    position: absolute;
+    width:100%;
+    height: 100vh ;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+video
+{
+    position: absolute;
+    top: 00%;
+    left:0%;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    padding-top: 15%;
+
+}
+.banner h1
+{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:100%;
+    background:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 50vh;
+    mix-blend-mode: screen;
+
+}
+
+.box{
+    width: 15vw;
+    height:  15vw;
+    padding: 0.25vw;
+    color: rgb(0, 0, 0);
+    background-image: url(Daily_49_m1.png);
+    background-size: cover;
+}
+*/
